@@ -1,0 +1,17 @@
+# Standalone database for payment-service.
+
+services:
+  payment-db:
+    image: postgres:16-alpine
+    container_name: mockindle-payment-db
+    environment:
+      POSTGRES_USER: payment_service
+      POSTGRES_PASSWORD: payment_service
+      POSTGRES_DB: payments
+    ports:
+      - "5435:5432"
+    volumes:
+      - payment-db-data:/var/lib/postgresql/data
+
+volumes:
+  payment-db-data:
