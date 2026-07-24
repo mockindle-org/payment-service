@@ -1,0 +1,9 @@
+# Vindle contact card — who to ask about the payment-service service.
+team: Payments
+sme: Liang Chen
+sme_email: liang.chen@acme.com
+manager: Rosa Marin
+manager_email: rosa.marin@acme.com
+slack: "#payments"
+slack_url: https://mockindle.slack.com/channels/payments
+email: payments@acme.com
